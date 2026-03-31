@@ -5,7 +5,7 @@ public class libarary {
 
     public libarary(int a, int b) {
         this.a = a;
-        this.b = b;
+        this.b = 0;
     }
 
     public int getIntA() {
