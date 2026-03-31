@@ -1,3 +1,5 @@
+package mylib;
+
 public class libarary {
 
     public libarary() {
