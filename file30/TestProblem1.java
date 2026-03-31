@@ -1,5 +1,5 @@
 package LAB_OOP;
-// Problem 1 30/3
+
 abstract class Member{
     private  String name;
     private String email;
@@ -98,19 +98,10 @@ class Staff extends Member{
 }
 public class TestProblem1 {
     public static void main(String[] args){
-        Member s1 = new Student("Tam", "tam@gmail.com", "S01", "IT", 1);
-        Member s2 = new Student("An", "an@gmail.com", "S02", "Business", 2);
+        
 
-        Member st1 = new Staff("John", "john@gmail.com", "T01", "IT", 5000);
-        Member st2 = new Staff("Mary", "mary@gmail.com", "T02", "HR", 6000);
+       
 
-        Member[] list = {s1, s2, st1, st2};
-
-        for (Member m : list) {
-            System.out.println(m);
-            System.out.println("Role: " + m.getRole());
-            System.out.println("----------------");
-        }
-
+        
     }
 }
